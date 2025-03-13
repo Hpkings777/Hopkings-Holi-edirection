@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhoot Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="fade-in">Bhoot Services</h1>
+        <p class="fade-in">Enter Code</p>
+        <input type="text" id="codeInput" class="fade-in" placeholder="Enter Code">
+        <button id="confirmButton" class="button fade-in" onclick="redirectUser(event)">Confirm</button>
+    </div>
+
+    <!-- Redirection Overlay -->
+    <div id="redirectOverlay">
+        <div class="cube-loader">
+            <div class="cube"></div>
+        </div>
+        <p id="redirectMessage"></p>
+    </div>
+
+    <!-- Error Popup -->
+    <div id="errorPopup">
+        <p id="errorMessage">Invalid Code! Try again.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
