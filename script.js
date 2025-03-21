@@ -14,7 +14,7 @@ function redirectUser() {
         "K843": { name: "Kulwinder", link: "https://hpkingsprojectkulwinder.netlify.app" },
         "A399": { name: "KPR Gamer", link: "https://hpkingprojectkpr.netlify.app" },
         "186": { name: "Abhiahek Katnoria", link: "https://hpkingsprojectabhishekk.netlify.app" },
-        "S808": { name: "Sukhamrit", link: "https://hpkingsprojectsukhamrit.netlify.app" }
+        "S808": { name: "Sukhamrit", link: "https://hpkingsprojectsukhamrit.netlify.app" },
         "RS-404-88E": { name: "Team The Great Smile Show", link: "https://hpkingsprojectsukhamrit.netlify.app" }
     };
 
